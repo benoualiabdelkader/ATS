@@ -1,0 +1,110 @@
+--- PROJECT: Baki – Educational Platform for Algerian Baccalaureate Students ---
+TYPE: Full-Stack Mobile + Web Platform (Major Ongoing Project)
+ROLE: Solo Developer, Architect & Product Owner
+GITHUB: https://github.com/benoualiabdelkader/Baki_me (Private Repository)
+PERIOD: February 2026 – Present (active, 2 months ago last update from August 2026)
+STATUS: Actively developed and deployed
+LANGUAGES: TypeScript (39.9%), Dart (38.4%), JavaScript (9.2%), HTML (4.2%), CSS (3.2%), Python (2.6%), Other (2.5%)
+
+--- TECH STACK ---
+Mobile App: Flutter 3.0+ / Dart 3.0+ (Android SDK 21+, iOS 11+)
+State Management: GetX (controllers for auth, XP, library)
+Backend/BFF: Cloudflare Workers (baki-bff-v3.js via wrangler.toml)
+Database: Firebase Firestore (NoSQL cloud database with production security rules)
+Authentication: Firebase Authentication
+Admin Panel: baki-admin-panel/ (TypeScript-based web admin dashboard)
+Website: baki_website/ (public web presence)
+Typography: Google Fonts (Arabic language support)
+Local Storage: Shared Preferences (offline data persistence)
+Progress UI: Percent Indicator
+Deployment: Firebase Hosting + Cloudflare Workers
+
+--- WHAT THE PLATFORM DOES ---
+Baki is a comprehensive educational mobile platform targeting Algerian Baccalaureate students across all tracks (Experimental Sciences, Mathematics, Literature & Philosophy, Technical Mathematics).
+
+The platform provides:
+- A gamified learning system with XP points and leveled progression (Beginner → Legend).
+- A curated educational library with thousands of materials: solved exercises, summaries, and video lessons.
+- An Islamic quiz module (Quiz_islamic) for supplementary religious education.
+- Real-time progress tracking, learning stats, and activity history per student.
+- A full admin panel for content management and platform administration.
+- A Cloudflare Workers BFF (Backend For Frontend) layer for secure API orchestration.
+
+--- KEY FEATURES BUILT ---
+1. Gamification System (XP & Leveling)
+   - 5-tier level progression: Level 1 (Beginner, Gray) → Level 5 (Hardworking, Bronze) → Level 10 (Excellent, Silver) → Level 20 (Elite, Gold) → Level 30 (Legend, Purple).
+   - XP earned on every completed educational material.
+   - Real-time XP progress bar toward next level.
+   - Full activity log and learning statistics dashboard.
+
+2. Educational Library
+   - Thousands of educational materials: solved exercises, summaries, video lessons.
+   - Categorized by subject (Biology, Mathematics, Physics, Arabic Literature, Philosophy) and by content type.
+   - XP reward triggered on completion.
+
+3. Firebase Firestore Database Architecture
+   - Designed and implemented full Firestore data schema (firestore_real_structure.json).
+   - Production-grade Firestore security rules (firestore.rules.production) with admin permissions system.
+   - Full database audit pipeline (full_database_audit.json, db_verification_results.json).
+   - Realtime sync architecture with performance optimization and pagination (PAGINATION_GUIDE.md).
+
+4. Cloudflare Workers BFF Layer
+   - baki-bff-v3.js: Backend For Frontend deployed via Cloudflare Workers (wrangler.toml).
+   - Handles secure API orchestration between Flutter app and Firebase.
+
+5. Admin Panel (TypeScript Web App)
+   - Full admin panel (baki-admin-panel/) for content management, user management, and platform monitoring.
+   - Admin permissions solution with role-based access control (ADMIN_PERMISSIONS_SOLUTION.md).
+   - Dashboard with real-time data visualization.
+
+6. Flutter Mobile App – 9 Core Screens
+   - Splash Screen: animated logo + auth state check.
+   - Landing Screen: feature showcase + login/signup entry.
+   - Login / Signup: credential input, full-field validation, local data persistence.
+   - Dashboard: current level card, quick links, recent activity feed.
+   - Library: educational material browser with subject/type filters + XP earn triggers.
+   - XP System: level display, progression visualization, activity history.
+   - Profile: full student profile, comprehensive learning statistics, academic info.
+   - Settings: notification management, preferences, logout.
+
+7. Islamic Quiz Module (Quiz_islamic/)
+   - Supplementary Islamic studies quiz feature integrated into the platform.
+
+8. Security & Performance
+   - Secure PDF viewing (Phase 4 & 5 enhancements).
+   - Performance analysis and advanced performance guide (ADVANCED_PERFORMANCE_GUIDE.md, PERFORMANCE_IMPROVEMENTS_APPLIED.md).
+   - Comprehensive refactoring plan and stability audit (STABILITY_AUDIT_REPORT.md).
+   - Production vs. dev Firestore rules separation.
+
+9. Content Management & Scripts
+   - JavaScript scripts for lesson export, list generation, and data analysis (export_all_lessons.js, analyze_lessons.js, generate_list.js).
+   - Python scripts for database patching, fix automation, and duplication checking (patch.py, fix_login.py, check_duplication.py).
+   - Curriculum data management (curriculum_data.json, content_template.json).
+
+--- ARCHITECTURE ---
+apps/: Flutter app source
+lib/: Flutter Dart source (main.dart, screens/, controllers/, models/, widgets/, utils/)
+baki-admin-panel/: TypeScript admin web dashboard
+baki_website/: Public marketing website
+firebase/: Firebase configuration and cloud functions
+functions/: Firebase Cloud Functions
+shared/: Shared utilities
+baki-bff-v3.js: Cloudflare Workers BFF
+firebase.json / wrangler.toml: Deployment configuration
+design/: UI/UX design files (Stitch Baki Dashboard)
+docs/ + documentation_complete_ar/: Full Arabic technical documentation
+
+--- COLOR SYSTEM ---
+Primary: #6366F1 (Indigo/Purple)
+Secondary: #8B5CF6 (Light Purple)
+Accent: #F59E0B (Orange)
+Success: #10B981 (Green)
+Subject coverage: Experimental Sciences, Mathematics, Literature & Philosophy, Technical Mathematics
+
+--- BULLET POINTS FOR CV ---
+- Architected and developed Baki, a full-stack mobile educational platform for Algerian Baccalaureate students, comprising a Flutter/Dart mobile app, TypeScript admin panel, Cloudflare Workers BFF, and Firebase Firestore backend — covering 4 academic tracks and thousands of curated study materials.
+- Engineered a gamified learning system with 5-tier XP progression (Beginner to Legend), real-time progress tracking, and activity history, driving student engagement through completion-based rewards across library content.
+- Designed a production-grade Firebase Firestore architecture with security rules separation (dev/production), role-based admin permissions, database audit pipelines, realtime sync with pagination, and performance-optimized query patterns.
+- Built a Cloudflare Workers BFF (Backend For Frontend) layer for secure API orchestration between the Flutter app and Firebase, with a full web admin dashboard (TypeScript) for content and user management.
+- Implemented secure PDF viewing, performance optimization passes (ADVANCED_PERFORMANCE_GUIDE, STABILITY_AUDIT), and a comprehensive Flutter architecture analysis, delivering a production-ready mobile experience for Android and iOS.
+- Developed data management automation tooling: JavaScript content export/analysis scripts and Python database patch/fix utilities, managing thousands of educational materials (exercises, summaries, video lessons) organized by subject and type.

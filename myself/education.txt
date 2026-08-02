@@ -1,0 +1,27 @@
+--- DEGREE 1 (CURRENT - IN PROGRESS) ---
+DEGREE: Master's degree in Computer and Information Sciences and Support Services
+SPECIALIZATION: Artificial Intelligence & Cybersecurity
+INSTITUTION: University Ain Temouchent Belhadj Bouchaib
+LOCATION: Aïn Témouchent, Algeria
+PERIOD: September 2025 – July 2027
+STATUS: In Progress
+
+--- DEGREE 2 ---
+DEGREE: Bachelor's degree in Computer Science
+INSTITUTION: University Ain Temouchent Belhadj Bouchaib
+LOCATION: Aïn Témouchent, Algeria
+PERIOD: September 2022 – June 2025
+STATUS: Completed
+ACHIEVEMENTS: Ranked Top 3 (3rd place) out of the cohort in the first 4 semesters (L1 & L2).
+SKILLS DEVELOPED: C Programming Language, Communication, Teamwork
+
+--- DEGREE 3 ---
+DEGREE: Baccalaureate (French Bac), Experimental Sciences
+INSTITUTION: Ben Issa Attar High School
+LOCATION: Ghar El Baroud, Aïn Témouchent, Algeria
+PERIOD: September 2019 – July 2022
+STATUS: Completed
+GPA: 3.06 / 4.00
+ACTIVITIES: Participation in mathematics and physics competitions, school sports (football, athletics)
+NOTES: Solid foundation in biology, chemistry, physics, and mathematics. Developed analytical, research, teamwork, communication, and organizational skills.
+SKILLS DEVELOPED: Scientific Analysis, Critical Thinking, Research Methodology, Mathematics, Physics, Chemistry

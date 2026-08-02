@@ -1,0 +1,91 @@
+--- BEHANCE PROFILE ---
+BEHANCE URL: https://www.behance.net/abdelkaderbeno
+MEMBER SINCE: January 21, 2023
+AVAILABILITY: Available as Freelancer
+SPECIALIZATION: UX/UI Design
+LOCATION: Aïn Témouchent, Algeria
+TOTAL PROJECT VIEWS: 81+ (live, updating)
+TOTAL APPRECIATIONS: 10 (live, updating)
+8 additional draft projects (unpublished)
+
+--- UI/UX DESIGN PROJECT 1 ---
+NAME: Fatmote – Food Delivery App
+TYPE: Mobile UI/UX Design (Food & Delivery)
+PLATFORM: Behance (Published)
+PUBLISHED: August 24, 2025
+VIEWS: 6 | APPRECIATIONS: 1
+DISCIPLINES: Interface UI/UX
+TOOLS: Figma (confirmed)
+TAGS: design, Food, app design, UI/UX, Figma, ui design, user interface, Mobile app, ux/ui, UX design
+DESCRIPTION: UI/UX design in Figma for Fatmote, a food delivery mobile application. Covers the complete user flow including food browsing, ordering, and delivery tracking interfaces. Published August 2025 alongside Send Money App as part of an active Behance publication sprint.
+
+--- UI/UX DESIGN PROJECT 2 ---
+NAME: Fitness and Nutrition Tracker App
+TYPE: Mobile UI/UX Design (Health, Fitness & Medical)
+PLATFORM: Behance (Published)
+PUBLISHED: August 22, 2025
+VIEWS: 10 | APPRECIATIONS: 1
+DISCIPLINES: Interface UI/UX
+TOOLS: Figma (confirmed)
+TAGS: design, sport, fitness, Health, medical
+DESCRIPTION: UI/UX design in Figma for a fitness and nutrition tracking mobile application. Covers workout logging, calorie tracking, health metrics monitoring, and progress visualization screens. Published August 22, 2025 — same day as Send Money App.
+
+--- UI/UX DESIGN PROJECT 3 ---
+NAME: Send Money App
+TYPE: Mobile UI/UX Design (Fintech / Money Transfer)
+PLATFORM: Behance (Published)
+PUBLISHED: August 22, 2025
+VIEWS: 19 | APPRECIATIONS: 2
+DISCIPLINES: Interface UI/UX
+TOOLS: Figma (confirmed)
+TAGS: design, money, finance, Bank
+DESCRIPTION: UI/UX design in Figma for a mobile money transfer and banking application. Covers onboarding, transfer flow, recipient selection, and transaction confirmation screens. Second most-viewed project (19 views). Published August 2025 — the most recent Behance project.
+
+--- UI/UX DESIGN PROJECT 4 ---
+NAME: AIGenX – Turn Imagination into Reality
+TYPE: AI Platform UI/UX & Interaction Design (Best Performing Project)
+PLATFORM: Behance (Published)
+PUBLISHED: October 15, 2024
+VIEWS: 29 | APPRECIATIONS: 3
+DISCIPLINES: Graphic Design (Graphisme) + Interface UI/UX + Interaction Design (3 disciplines — most comprehensive project)
+TOOLS: Figma (confirmed)
+TAGS: Ai Art, image generation, user interface, design mobile app, ux/ui, AI-Assisted Creativity, Design Digital Art, Figma, UI/UX, ui design
+DESCRIPTION: UI/UX, interaction design, and graphic design for AIGenX, an AI-powered image generation mobile platform. Covers the full creative-to-output user flow: prompt input, AI generation results, image gallery, and style selection. Best-performing Behance project with 29 views and 3 appreciations. Demonstrates design thinking at the intersection of AI and creative tools — spanning 3 professional disciplines.
+
+--- UI/UX DESIGN PROJECT 5 ---
+NAME: Travel App
+TYPE: Mobile UI/UX Design (Travel & Tourism)
+PLATFORM: Behance (Published)
+PUBLISHED: October 13, 2024
+VIEWS: 7 | APPRECIATIONS: 1
+DISCIPLINES: Interface UI/UX
+TOOLS: Figma (confirmed)
+TAGS: Travel, Nature, beauty, model, UX design, uxdesign, uidesign, Figma, user interface, Experience
+DESCRIPTION: UI/UX design for a travel planning and discovery mobile application. Helps users plan trips with ease — covering flight booking, hotel discovery, and tourist attraction exploration. Built with Figma. Complements the Wanderlust AI web development project.
+
+--- UI/UX DESIGN PROJECT 6 ---
+NAME: Movie App
+TYPE: Mobile UI/UX & Graphic Design (Entertainment / Fan Art)
+PLATFORM: Behance (Published)
+PUBLISHED: October 13, 2024
+VIEWS: 10 | APPRECIATIONS: 1
+DISCIPLINES: Interface UI/UX
+TOOLS: Figma + Digital Design tools
+TAGS: movie, Film, movie poster, design, Graphic Designer, joker, batman, DC Comics, Fan Art, digital
+DESCRIPTION: Combined UI/UX and graphic design project featuring a movie browsing app alongside DC Comics fan art poster design (Batman, Joker). Demonstrates both product UI design and standalone graphic/visual design skills. Complements the PrimeVision movie web app development project.
+
+--- DRAFT PROJECTS (8 unpublished) ---
+8 additional UI/UX design projects currently in draft/unpublished state.
+
+--- DESIGN SKILLS DEMONSTRATED ---
+Mobile App UI Design (iOS/Android standards)
+UX Flow Design (user journey mapping, screen flows)
+Figma (primary design tool)
+Design for multiple domains: Food Delivery, Fintech, Fitness/Health, AI Platforms, Travel, Entertainment
+Prototyping and interaction design
+Visual design consistency and branding
+
+--- BULLET POINTS FOR CV ---
+- Designed 6 published UI/UX portfolios on Behance covering diverse mobile app domains (food delivery, fintech, fitness, AI image generation, travel, entertainment), with the AIGenX AI platform design reaching 28 views and 2 appreciations as top-performing project.
+- Demonstrated end-to-end UX design capability across full user flows (onboarding, core feature, transaction/conversion screens) for both consumer and AI-powered product interfaces using Figma.
+- Maintained an active Behance design portfolio since January 2023 with 14+ projects (6 published, 8 in-draft) spanning UI/UX design for mobile apps across 6 product categories.

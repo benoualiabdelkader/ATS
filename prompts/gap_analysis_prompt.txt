@@ -1,0 +1,1 @@
+Compare the target Job Description required skills with the Candidate's Knowledge Graph. Identify matched core competencies, minor implicit gaps, project relevance ranking, and strategic positioning recommendations.

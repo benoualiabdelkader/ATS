@@ -1,0 +1,144 @@
+% =====================================================================
+% ATS-OPTIMIZED RESUME TEMPLATE
+% Built for maximum parsing reliability across Workday, Greenhouse,
+% Lever, Taleo, iCIMS, and similar Applicant Tracking Systems.
+%
+% RULES FOLLOWED IN THIS TEMPLATE:
+% - Single column, no text boxes, no tables-as-layout
+% - Standard section names (Summary, Experience, Skills, Projects,
+%   Education, Certifications) -- never renamed creatively
+% - Plain bullets only (no icons, stars, or rating graphics)
+% - Consistent Job Title / Company / Location / Dates pattern
+% - Standard, widely-embedded font (Times, via mathptmx) --
+%   no exotic fonts that can break PDF text-extraction
+% - No headers/footers carrying essential content
+% - No columns, no colored text, no images
+% =====================================================================
+
+\documentclass[10.5pt, letterpaper]{article}
+\usepackage[letterpaper, top=0.6in, bottom=0.6in, left=0.75in, right=0.75in]{geometry}
+\usepackage{mathptmx}          % Times-family font -- safe, universal, embeds cleanly
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{ragged2e}
+
+\pagestyle{empty}              % no headers/footers -- nothing for ATS to mis-parse
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  pdfborder={0 0 0}
+}
+
+% ---- Section formatting: plain, bold, uppercase, ruled underline ----
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+% ---- Entry pattern: fully sequential, left-to-right, NO \hfill ----
+% \hfill-based right-alignment can cause PDF text-extraction to reorder
+% dates/locations out of sequence in some ATS parsers (verified via
+% pdftotext raw-order test). This format guarantees correct reading
+% order for every parser, at a small cost to visual right-alignment.
+\newcommand{\entry}[4]{%
+  \noindent\textbf{#1} --- #3, #4 \textbar\ #2\par
+  \vspace{2pt}
+}
+
+% ---- Simplified entry for Projects (no company/location) ----
+\newcommand{\projectentry}[2]{%
+  \noindent\textbf{#1} \textbar\ #2\par
+  \vspace{2pt}
+}
+
+% ---- Plain bullet list, no custom symbols ----
+\setlist[itemize]{label=\textbullet, leftmargin=16pt, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+\newcommand{\resumeItem}[1]{\item #1}
+
+\begin{document}
+\RaggedRight
+
+% =====================================================================
+% HEADER -- plain text only, no icons, single line, pipe-separated
+% =====================================================================
+\begin{center}
+  {\Huge \textbf{FIRST NAME LAST NAME}}\\[4pt]
+  {\large Target Job Title}\\[4pt]
+  City, State/Country \ $|$ \ Phone Number \ $|$ \ Email Address \ $|$ \ LinkedIn URL \ $|$ \ Portfolio/GitHub URL
+\end{center}
+
+\vspace{2pt}
+
+% =====================================================================
+% SUMMARY -- optional but recommended, plain 2-3 sentence paragraph
+% =====================================================================
+\section{SUMMARY}
+Results-driven [Job Title] with [X] years of experience in [industry/domain]. Skilled in [key skill 1], [key skill 2], and [key skill 3], with a track record of [quantified achievement type, e.g., "improving efficiency," "driving revenue growth"]. Seeking to leverage [core strength] to deliver impact at [type of company/role].
+
+% =====================================================================
+% EXPERIENCE -- consistent Title/Company/Location/Dates pattern
+% =====================================================================
+\section{EXPERIENCE}
+
+\entry{Job Title}{Month Year -- Month Year / Present}{Company Name}{City, State/Country}
+\begin{itemize}
+  \resumeItem{[Action verb] [task/project], using [tool/method], resulting in [quantified outcome, e.g., increased X by Y\%].}
+  \resumeItem{[Action verb] [task/project] across [team size/scope], achieving [quantified result].}
+  \resumeItem{[Action verb] [task/project], reducing [cost/time/errors] by [X\%] through [method].}
+\end{itemize}
+
+\entry{Job Title}{Month Year -- Month Year}{Company Name}{City, State/Country}
+\begin{itemize}
+  \resumeItem{[Action verb] [task/project], improving [metric] from [baseline] to [target].}
+  \resumeItem{[Action verb] [task/project], supporting [X] clients/users/stakeholders.}
+  \resumeItem{[Action verb] [task/project], delivering [outcome] ahead of schedule / under budget.}
+\end{itemize}
+
+\entry{Job Title}{Month Year -- Month Year}{Company Name}{City, State/Country}
+\begin{itemize}
+  \resumeItem{[Action verb] [task/project], contributing to [business outcome].}
+  \resumeItem{[Action verb] [task/project], collaborating with [team/department] to achieve [result].}
+\end{itemize}
+
+% =====================================================================
+% SKILLS -- plain grouped list, no bars, no star ratings
+% =====================================================================
+\section{SKILLS}
+\noindent\textbf{Technical:} Skill 1, Skill 2, Skill 3, Skill 4, Skill 5\par
+\noindent\textbf{Tools/Platforms:} Tool 1, Tool 2, Tool 3, Tool 4\par
+\noindent\textbf{Languages:} Language 1 (Proficiency Level), Language 2 (Proficiency Level)
+
+% =====================================================================
+% PROJECTS -- optional, same consistent pattern as Experience
+% =====================================================================
+\section{PROJECTS}
+
+\projectentry{Project Name -- Role}{Month Year -- Month Year}
+\begin{itemize}
+  \resumeItem{[Action verb] [what was built/done], using [tools/technologies].}
+  \resumeItem{[Action verb] [outcome/impact], achieving [quantified result if applicable].}
+\end{itemize}
+
+% =====================================================================
+% EDUCATION -- consistent pattern, plain text
+% =====================================================================
+\section{EDUCATION}
+
+\entry{Degree, Major}{Month Year -- Month Year}{University Name}{City, State/Country}
+\begin{itemize}
+  \resumeItem{GPA: X.XX/4.00 (include if 3.5+)}
+  \resumeItem{Relevant Coursework: Course 1, Course 2, Course 3}
+  \resumeItem{Honors/Awards: Award 1, Award 2}
+\end{itemize}
+
+% =====================================================================
+% CERTIFICATIONS / VOLUNTEERING -- plain text, combined if short
+% =====================================================================
+\section{CERTIFICATIONS AND ADDITIONAL}
+\noindent\textbf{Certifications:} Certification Name (Issuing Organization, Year)\par
+\noindent\textbf{Volunteering:} Role, Organization (Month Year -- Month Year)
+
+\end{document}

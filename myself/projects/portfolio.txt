@@ -1,0 +1,77 @@
+--- PROJECT: Personal Portfolio Website ---
+TYPE: Personal Portfolio Web Application (PWA)
+ROLE: Solo Developer & Designer
+GITHUB: https://github.com/benoualiabdelkader/Portfolio (Public Repository)
+LIVE DEMO: https://benoualiabdelkader.github.io/Portfolio (GitHub Pages)
+PERIOD: 2025 (11 months ago from 2026)
+STATUS: Completed & Live
+LICENSE: MIT Open Source
+LANGUAGES: CSS (44.5%), JavaScript (38.3%), HTML (17.2%)
+
+--- TECH STACK ---
+Frontend: HTML5, CSS3, Vanilla JavaScript (ES6+)
+Styling: Custom CSS (Glassmorphism-inspired), CSS Variables, Animations (scroll-triggered, hover, micro-interactions)
+Icons: Font Awesome
+PWA: Service Worker (sw.js) for offline capability
+Hosting: GitHub Pages
+Design Tool: Figma
+Performance: Lazy loading, code splitting, <1s load time
+Accessibility: WCAG 2.1 AA compliant
+
+--- KEY FEATURES BUILT ---
+1. Multi-Category Portfolio Showcase
+   - 24+ professional projects displayed across 5 categories: Web Dev, UI/UX Design, AI Chatbot, Presentation, Voice-Over.
+   - Smart instant project filtering by category with JavaScript-powered transitions.
+   - Interactive project modals with descriptions, technologies used, and live links.
+
+2. Dual Theme System
+   - Sophisticated dark/light mode toggle with smooth CSS transitions and localStorage user preference persistence.
+
+3. Certifications Gallery
+   - Swipeable carousel with 12+ professional certifications displayed at high resolution.
+   - Zoom functionality for detailed certificate viewing.
+
+4. Voice-Over Audio Portfolio
+   - Custom-built audio player with playback controls and download options for voice-over work.
+
+5. Performance & PWA
+   - Progressive Web App (PWA) with Service Worker (sw.js) for full offline capability.
+   - Lighthouse scores: Performance 98/100, Accessibility 95/100, Best Practices 100/100, SEO 100/100.
+   - First Contentful Paint <0.8s, Time to Interactive <1.2s.
+   - Lazy loading for progressive image delivery.
+
+6. Accessibility
+   - WCAG 2.1 AA level compliance: full keyboard navigation, ARIA labels, semantic HTML, high contrast color schemes.
+
+7. Contact System
+   - Contact form with real-time validation and submission handling.
+
+8. Fluid Animations
+   - Scroll-triggered animations, hover effects, and micro-interactions across all sections.
+   - Custom animated hourglass loading screen on initial load.
+   - Responsive grid: Desktop (1920px+), Tablet (768px+), Mobile (320px+).
+
+--- ARCHITECTURE ---
+- index.html: Main HTML structure
+- assets/css/: style.css (main), responsive.css (media queries), animations.css (animation definitions)
+- assets/js/: main.js (core), theme.js (theme switcher), projects.js (filtering), animations.js (scroll animations)
+- assets/images/: hero/, icons/, projects/ thumbnails
+- Certifications/: High-res certificate images
+- Project/: UI UX Design/, Web Dev/, Presentation/, Voice Off/, AI Chatbot/ asset directories
+- sw.js: Service Worker for PWA offline capability
+
+--- PORTFOLIO STATISTICS ---
+24+ Professional Projects
+12+ Industry Certifications
+5 Specialized Skill Categories
+100% Responsive Design
+<1s Load Time
+Lighthouse Performance: 98/100
+
+--- BULLET POINTS FOR CV ---
+- Built and deployed a production-grade personal portfolio PWA (GitHub Pages) achieving Lighthouse scores of 98/100 Performance, 95/100 Accessibility, and 100/100 SEO, with First Contentful Paint under 0.8 seconds.
+- Engineered a multi-category project showcase with instant JavaScript filtering across 5 domains (Web Dev, UI/UX, AI Chatbot, Presentation, Voice-Over), interactive modals, and a swipeable certification carousel for 12+ credentials.
+- Implemented a Service Worker (sw.js) for full offline capability (PWA), lazy image loading, and code splitting — delivering a sub-1-second load time across all device sizes.
+- Built a dual-theme (dark/light) system with localStorage persistence, scroll-triggered animations, hover micro-interactions, and a custom animated loading screen using pure CSS and Vanilla JavaScript.
+- Achieved WCAG 2.1 AA accessibility compliance with full keyboard navigation, screen reader ARIA labels, semantic HTML, and high-contrast color schemes in both themes.
+- Designed a responsive layout supporting 1920px+ desktop, 768px+ tablet, and 320px+ mobile with adaptive grid systems and touch-optimized interactions.

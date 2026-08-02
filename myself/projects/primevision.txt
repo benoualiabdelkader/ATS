@@ -1,0 +1,66 @@
+--- PROJECT: PrimeVision – Movie & TV Show Discovery Platform ---
+TYPE: Frontend Web Application (Personal Project)
+ROLE: Solo Developer
+GITHUB: https://github.com/benoualiabdelkader/PrimeVision (Public Repository)
+PERIOD: 2025 (11 months ago from 2026)
+STATUS: Completed
+LICENSE: MIT Open Source
+LANGUAGES: HTML (51.5%), JavaScript (45.1%), CSS (3.4%)
+
+--- TECH STACK ---
+Frontend: HTML5, CSS3 (Tailwind CSS), Vanilla JavaScript
+External API: The Movie Database (TMDB) API v3
+Icons: Lucide Icons
+Authentication: Google OAuth 2.0 + Local email/password auth
+Design: Responsive / Mobile-first, Light/Dark theme toggle
+Server: Static file serving (serve npm / Apache / Nginx compatible)
+
+--- KEY FEATURES BUILT ---
+1. TMDB API Integration
+   - Integrated The Movie Database (TMDB) API v3 to fetch and display a vast library of movies and TV shows.
+   - Built detailed content pages (details.html) showing overview, cast, trailers, and recommendations for each title.
+   - Implemented category browsing and dynamic content rendering from the API.
+
+2. Search Functionality
+   - Built a full search system (search.html + js/search.js) allowing users to find specific movie and TV show titles instantly.
+   - Integrated the TMDB search endpoint with real-time query handling.
+
+3. Favorites & Watchlist Management
+   - Built a favorites system (favorites.html + js/favorites.js) for users to mark and manage their favorite content.
+   - Implemented a personalized watchlist to track titles to watch later.
+
+4. User Authentication
+   - Implemented dual authentication: local email/password login system and Google OAuth 2.0 integration.
+   - Configured Google Cloud Console OAuth 2.0 Client IDs (Web application type) with authorized origins and redirect URIs.
+   - Built login/signup page (login.html) and user profile page (profile.html).
+
+5. Multi-Language Support
+   - Implemented a language switching module (js/language.js) supporting Arabic and English interfaces.
+
+6. Theme Toggling
+   - Built a light/dark theme toggle system for personalized viewing experience.
+
+7. Responsive Design
+   - Mobile-first responsive layout using Tailwind CSS ensuring seamless experience across all devices.
+
+--- ARCHITECTURE ---
+- index.html: Main entry point (browsing/discovery interface)
+- details.html: Individual movie/TV show detail page
+- search.html: Search results page
+- favorites.html / favorites-new.html: User favorites pages
+- profile.html: User profile management
+- login.html: Authentication page
+- js/app.js: Core application logic + TMDB API integration
+- js/auth.js: Authentication (local + Google OAuth)
+- js/favorites.js: Favorites and watchlist management
+- js/language.js: Language switching functionality
+- js/search.js: Search logic
+- css/style.css: Custom CSS styles (on top of Tailwind CSS)
+
+--- BULLET POINTS FOR CV ---
+- Built a full-featured movie and TV show discovery platform (PrimeVision) integrating the TMDB API v3, delivering browsing, search, detailed content pages with cast, trailers, and AI-driven recommendations.
+- Engineered a dual authentication system combining local email/password login and Google OAuth 2.0, configured end-to-end via Google Cloud Console with secure client ID management.
+- Developed a personalized favorites and watchlist management system allowing users to curate and track their content preferences across sessions.
+- Implemented multi-language support (Arabic/English) and a light/dark theme toggle using modular JavaScript architecture (app.js, auth.js, favorites.js, language.js, search.js).
+- Designed a responsive, mobile-first UI with Tailwind CSS and Lucide Icons, delivering a premium user experience across all screen sizes and devices.
+- Published as a MIT-licensed open-source project with clean project structure and full README documentation following professional software development standards.

@@ -1,0 +1,1 @@
+Audit the generated CV markdown against Job Description keywords, section header conventions (Summary, Work Experience, Skills, Projects, Education), single-column parsing, and metric density. Output ATS Score (0-100%) and actionable optimization recommendations.

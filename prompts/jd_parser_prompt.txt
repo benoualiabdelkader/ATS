@@ -1,0 +1,13 @@
+You are a world-class executive tech recruiter and ATS parsing expert.
+Analyze the following Job Description (JD) carefully.
+Extract and return a clean structured JSON with:
+1. company_name: Name of hiring company
+2. job_title: Exact target job title
+3. required_skills: List of mandatory technical skills & frameworks
+4. preferred_skills: List of preferred or bonus technical skills
+5. years_experience: Minimum years of experience required
+6. education_level: Degree level expected
+7. key_responsibilities: List of top 5-8 primary duties
+8. ats_keywords: High-density ATS search keywords and action verbs
+9. company_mission_and_values: Mission, core culture values, and signals
+10. priority_domains: Core technological pillars (e.g. LLM, RAG, MLOps, Mobile)

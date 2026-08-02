@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "career-application-agent"
+version = "1.0.0"
+description = "Personal AI Career Operating System for ATS-Optimized Application Packages"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic>=2.0.0",
+    "typer>=0.9.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "rich>=13.0.0",
+    "jinja2>=3.1.2",
+    "reportlab>=4.0.0"
+]
+
+[project.scripts]
+career-agent = "engine.cli:cli_app"

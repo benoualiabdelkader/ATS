@@ -1,0 +1,86 @@
+--- CERTIFICATE 1 ---
+NAME: Google IT Support Professional Certificate
+ISSUER: Google (via Coursera)
+DATE: November 2024
+CREDENTIAL ID: GCE48W62HKVF
+SKILLS: IT Support, Technical Support, Troubleshooting, Linux, Networking
+
+--- CERTIFICATE 2 ---
+NAME: Crash Course on Python
+ISSUER: Google (via Coursera)
+DATE: October 2025
+CREDENTIAL ID: CLGGTK62WSHC
+SKILLS: Python Programming
+
+--- CERTIFICATE 3 ---
+NAME: Technical Support Fundamentals
+ISSUER: Google (via Coursera)
+DATE: August 2023
+CREDENTIAL ID: JZHWXXCNGBUW
+SKILLS: Troubleshooting, Linux, IT Support
+
+--- CERTIFICATE 4 ---
+NAME: The Bits and Bytes of Computer Networking
+ISSUER: Google (via Coursera)
+SKILLS: Computer Networking, TCP/IP
+
+--- CERTIFICATE 5 ---
+NAME: Operating Systems and You: Becoming a Power User
+ISSUER: Google (via Coursera)
+SKILLS: Operating Systems, Linux, Windows, Command Line
+
+--- CERTIFICATE 6 ---
+NAME: System Administration and IT Infrastructure Services
+ISSUER: Google (via Coursera)
+SKILLS: System Administration, IT Infrastructure
+
+--- CERTIFICATE 7 ---
+NAME: IT Security: Defense against the Digital Dark Arts
+ISSUER: Google (via Coursera)
+SKILLS: IT Security, Cybersecurity, Encryption, Network Security
+
+--- CERTIFICATE 8 ---
+NAME: Google AI Essentials
+ISSUER: Google
+SKILLS: Generative AI, Data Ethics, AI Fundamentals, Responsible AI
+
+--- CERTIFICATE 9 ---
+NAME: Microsoft 365 Fundamentals Specialization
+ISSUER: Microsoft (via Coursera)
+DATE: June 2024
+CREDENTIAL ID: HBNELWZMCG63
+SKILLS: Microsoft 365, Cloud Productivity, Office Applications
+
+--- CERTIFICATE 10 ---
+NAME: Work Smarter with Microsoft Excel
+ISSUER: Microsoft (via Coursera)
+CREDENTIAL ID: DVBJ8JCWMKBV
+SKILLS: Microsoft Excel, Data Analysis, Spreadsheets
+
+--- CERTIFICATE 11 ---
+NAME: Work Smarter with Microsoft PowerPoint
+ISSUER: Microsoft (via Coursera)
+CREDENTIAL ID: https://coursera.org/verify/ZK4YZXZJ7C8S
+SKILLS: Microsoft PowerPoint, Presentation Design
+
+--- CERTIFICATE 12 ---
+NAME: Work Smarter with Microsoft Word
+ISSUER: Microsoft (via Coursera)
+CREDENTIAL ID: https://coursera.org/verify/RQGB96LX3QJE
+SKILLS: Microsoft Word, Document Formatting
+
+--- CERTIFICATE 13 ---
+NAME: Certificate of Training in Computer Maintenance
+ISSUER: Mohamed Boudiaf School of Computer Sciences – Ain Témouchent
+DATE: April 2025
+DURATION: 2-month training program
+NOTES: Covered computer hardware, troubleshooting, system installation, and basic IT support skills.
+SKILLS: Computer Maintenance, Computer Hardware, Troubleshooting, System Installation, IT Support
+
+--- CERTIFICATE 14 ---
+NAME: Advanced Computing Track – Algerian-American Summer University 2025
+ISSUER: University Ain Temouchent Belhadj Bouchaib
+DATE: August 2025
+PERIOD: July 27 – August 2, 2025 (7-day intensive program)
+NOTES: Covered AI, Machine Learning, Cybersecurity, AI Ethics, and Research Methodology through workshops and expert-led sessions with professors from Algeria and the United States. Met Dr. Mounir Hahad (leading cybersecurity expert).
+SKILLS: AI, Machine Learning, Cybersecurity, AI Ethics, Research Methodology, Communication, Teamwork

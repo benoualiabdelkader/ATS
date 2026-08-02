@@ -1,0 +1,18 @@
+Project Name: EchoBreaker (UNESCO Youth Hackathon 2026 Submission)
+
+Summary:
+An innovative "Phygital" (Physical + Digital) educational platform aimed at improving algorithmic literacy among youth. The project focuses on teaching users how social media recommendation algorithms work and how to break "Echo Chambers" to regain control over their digital content.
+
+Key Contributions:
+- Algorithm Simulator: Developed an interactive web-based simulator allowing users to visualize the real-time impact of their interactions on content narrowing and filter bubbles.
+- Echo Escape Game: Designed a hybrid educational game applying an innovative "4A Framework" to foster critical thinking and understand information amplification mechanisms.
+- Agency Toolkit: Created practical guides and tools empowering users to audit and control their personal algorithm settings, transforming them into digital awareness ambassadors in their communities.
+
+Impact:
+- Enhances Media and Information Literacy (MIL) and Artificial Intelligence (AI) awareness.
+- Provides concrete solutions to algorithmic bias, aligning with UNESCO's Sustainable Development Goals (SDGs).
+
+Technologies Used:
+- Frontend Development: HTML5, CSS, JavaScript.
+- Backend & Cloud Services: Firebase.
+- UI/UX Design and Interactive Algorithm Simulation.
