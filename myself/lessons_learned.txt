@@ -624,6 +624,43 @@ Rule for the future:
   → Demonstrate soft skills (problem solving, leadership, cross-functional collaboration) organically through project outcomes and leadership bullet points.
 
 
+MISTAKE #43: Overusing vertical pipes (`|`), em-dashes (`—`), and ampersands (`&`) in contact & section headers
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+What happened:
+  Used pipes `|` and em-dashes `—` as visual dividers in contact headers and project sublines.
+
+Why it was wrong:
+  - Older legacy ATS parsers (Taleo, Workday) can misinterpret pipe characters and em-dashes as field delimiters or encoding errors.
+
+Rule for the future:
+  → Use clean commas, standard hyphens (`-`), or `and` in place of special characters (`|`, `—`, `&`) to ensure 100% legacy ATS compatibility.
+
+
+MISTAKE #44: Project date ambiguity on active projects
+──────────────────────────────────────────────────────
+What happened:
+  Dated WriteLens V2 as `2025 -- 2026` instead of explicitly marking it `2025 – Present (Ongoing)`.
+
+Why it was wrong:
+  - Automated ATS date filters may flag end dates in the current calendar year as incomplete or miscalculated.
+
+Rule for the future:
+  → Always mark active projects with `Present (Ongoing)` to indicate current active engineering work.
+
+
+MISTAKE #45: Omitting ATS-scanned soft skill keywords (Problem Solving, Cross-Functional Collaboration)
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+What happened:
+  Relied entirely on project bullet context without explicit ATS keyword entries for core soft skills in the Skills section.
+
+Why it was wrong:
+  - Modern ATS parsers (Greenhouse, Lever) scan explicitly for "Problem Solving" and "Cross-Functional Collaboration" strings.
+
+Rule for the future:
+  → Include a dedicated "Engineering Practices & Soft Skills" entry in Technical Skills featuring "Problem Solving" and "Cross-Functional Collaboration".
+
+
+
 
 
 
