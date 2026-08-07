@@ -15,7 +15,7 @@ Master's student in AI and Cybersecurity (Ranked 3rd in CS cohort) proficient in
 - **AI and Machine Learning:** PyTorch, Scikit-learn, Model Quantization, Fine-Tuning, LLM Pipelines, Sensor Data Modeling
 - **Languages and Core CS:** Python, C, C++, Data Structures, Algorithms, REST APIs, SQL, PostgreSQL
 - **Systems and Cloud:** Hardware Integration, Docker Containerization, Linux/Windows Administration, Streamlit, Git/GitHub
-- **Engineering and Benchmarking:** Performance Benchmarking, Problem Solving, Cross-Functional Collaboration, Technical Leadership
+- **Engineering and Benchmarking:** Performance Benchmarking, Parallel Computing, Problem Solving, Cross-Functional Collaboration
 
 ---
 
@@ -35,12 +35,12 @@ Master's student in AI and Cybersecurity (Ranked 3rd in CS cohort) proficient in
 - Built a privacy-first Python AI engine integrating Groq LLM API with strict tokenization, default-deny security controls, and provenance tracking across Render cloud deployments.
 - Developed a REST API backend (Node.js/Express) serving JSON run bundles to a React TypeScript dashboard, containerized via Docker with release automation.
 
-**EdgeQuant - High-Speed LLM Quantization Toolkit** | *2026*  
+**EdgeQuant - High-Speed LLM Quantization Toolkit** | *2026 (Completed)*  
 [github.com/benoualiabdelkader/EdgeQuant](https://github.com/benoualiabdelkader/EdgeQuant) | *Tech Stack: Python, C++, PyTorch, CUDA, ONNX*
 - Designed and implemented an open-source quantization toolkit compressing 7B and 13B parameter Transformer models into 4-bit and 8-bit precision for edge devices and GPUs.
 - Optimized inference performance by reducing GPU VRAM footprint by 62% while preserving 98.4% of baseline FP16 model accuracy.
 
-**EcoSentinel AI - Aquatic Sensor Quality and ML Pipeline** | *2026*  
+**EcoSentinel AI - Aquatic Sensor Quality and ML Pipeline** | *2026 (Completed)*  
 [github.com/benoualiabdelkader/eco-sentinel-project](https://github.com/benoualiabdelkader/eco-sentinel-project) | *Tech Stack: Python, Scikit-learn, Pandas, NumPy, Streamlit, LaTeX*
 - Designed and built an environmental monitoring system processing aquatic sensor data (turbidity, dissolved oxygen) to detect water pollution in real time.
 - Trained a Scikit-learn SVM classifier (RBF kernel) and deployed an interactive Streamlit simulation web app featuring real-time parameter sliders and published a formal LaTeX research report.

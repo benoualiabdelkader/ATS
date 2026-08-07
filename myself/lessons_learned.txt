@@ -708,6 +708,43 @@ Rule for the future:
   → Use explicit single-year dates (`2026`) for completed projects and `Present (Ongoing)` for active work.
 
 
+MISTAKE #50: Language mixing / typo in action verb ("Architecte" instead of "Architected")
+───────────────────────────────────────────────────────────────────────────────────────
+What happened:
+  Accidentally used French spelling "Architecte" instead of English action verb "Architected".
+
+Why it was wrong:
+  - Reduces professional polish in an English-language application.
+
+Rule for the future:
+  → Always verify action verb spellings in English ("Architected", "Engineered", "Designed").
+
+
+MISTAKE #51: Hyphenation line-break breaks inside displayed URL strings
+───────────────────────────────────────────────────────────────────────
+What happened:
+  Displayed GitHub repo URLs were breaking across lines at hyphens (`Adaptive- Blended-`).
+
+Why it was wrong:
+  - Creates visual spaces inside repository links and risks ATS URL parsing breakage.
+
+Rule for the future:
+  → Keep displayed repository URLs contiguous without line-break spaces.
+
+
+MISTAKE #52: Omitting parallel computing keywords for semiconductor AI roles
+─────────────────────────────────────────────────────────────────────────────
+What happened:
+  Omitted "Parallel Computing" in technical skills when applying to Intel's framework optimization team.
+
+Why it was wrong:
+  - Semiconductor AI teams look explicitly for parallel computing and low-level optimization background alongside CUDA.
+
+Rule for the future:
+  → Explicitly include "Parallel Computing" and "Performance Benchmarking" in technical skills for hardware/semiconductor AI applications.
+
+
+
 
 
 

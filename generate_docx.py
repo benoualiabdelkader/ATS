@@ -85,7 +85,7 @@ add_section_title(doc, "Technical Skills")
 add_bullet(doc, "AI and Machine Learning: ", "PyTorch, Scikit-learn, Model Quantization, Fine-Tuning, LLM Pipelines, Sensor Data Modeling")
 add_bullet(doc, "Languages and Core CS: ", "Python, C, C++, Data Structures, Algorithms, REST APIs, SQL, PostgreSQL")
 add_bullet(doc, "Systems and Cloud: ", "Hardware Integration, Docker Containerization, Linux/Windows Administration, Streamlit, Git/GitHub")
-add_bullet(doc, "Engineering and Benchmarking: ", "Performance Benchmarking, Problem Solving, Cross-Functional Collaboration, Technical Leadership")
+add_bullet(doc, "Engineering and Benchmarking: ", "Performance Benchmarking, Parallel Computing, Problem Solving, Cross-Functional Collaboration")
 
 # EDUCATION
 add_section_title(doc, "Education")
@@ -121,7 +121,7 @@ add_bullet(doc, "", "Developed a REST API backend (Node.js/Express) serving JSON
 p_p2 = doc.add_paragraph()
 p_p2.paragraph_format.space_before = Pt(4)
 p_p2.paragraph_format.space_after = Pt(1)
-r_p2_title = p_p2.add_run("EdgeQuant - High-Speed LLM Quantization Toolkit  •  2026\n")
+r_p2_title = p_p2.add_run("EdgeQuant - High-Speed LLM Quantization Toolkit  •  2026 (Completed)\n")
 r_p2_title.bold = True
 r_p2_url = p_p2.add_run("github.com/benoualiabdelkader/EdgeQuant  •  ")
 r_p2_url.font.size = Pt(9)
@@ -136,7 +136,7 @@ add_bullet(doc, "", "Optimized inference performance by reducing GPU VRAM footpr
 p_p3 = doc.add_paragraph()
 p_p3.paragraph_format.space_before = Pt(4)
 p_p3.paragraph_format.space_after = Pt(1)
-r_p3_title = p_p3.add_run("EcoSentinel AI - Aquatic Sensor Quality and ML Pipeline  •  2026\n")
+r_p3_title = p_p3.add_run("EcoSentinel AI - Aquatic Sensor Quality and ML Pipeline  •  2026 (Completed)\n")
 r_p3_title.bold = True
 r_p3_url = p_p3.add_run("github.com/benoualiabdelkader/eco-sentinel-project  •  ")
 r_p3_url.font.size = Pt(9)
