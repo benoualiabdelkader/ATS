@@ -1,0 +1,35 @@
+**Opportunity Title:**
+Research Internship / Visiting Student Researcher – Artificial Intelligence & Natural Language Processing
+
+**Organization:**
+AI & NLP Research Group / Academic Lab
+
+**Opportunity Type:**
+Research Internship / Visiting Research Student
+
+**Field:**
+Artificial Intelligence / Natural Language Processing (NLP) / Large Language Models (LLMs) / Machine Learning
+
+**Description:**
+The candidate will contribute to research activities in the field of Artificial Intelligence, with a focus on Natural Language Processing (NLP), Large Language Models (LLMs), and Machine Learning.
+
+The internship involves:
+* Exploring recent research topics in AI and NLP.
+* Supporting experiments and research investigations.
+* Implementing and evaluating machine learning models.
+* Working with data processing and AI methodologies.
+* Reviewing scientific literature and contributing to research discussions.
+* Collaborating with researchers on ongoing projects.
+
+**Preferred Background:**
+* Bachelor’s or Master’s student in Computer Science, Artificial Intelligence, Data Science, or related fields.
+* Knowledge of Python and machine learning fundamentals.
+* Interest in NLP, LLMs, and AI research.
+* Ability to read and understand scientific papers.
+* Motivation to learn and contribute to academic research.
+
+**Availability:**
+Candidate available from September 2027 onwards (following Master's completion in July 2027).
+
+**Type:**
+Research Internship / Visiting Research Student (Remote or On-site)

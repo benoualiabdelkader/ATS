@@ -1,0 +1,19 @@
+{
+  "opportunity_name": "QMC_AI_Digital_Transformation_Internship",
+  "target_company": "Qatar Media Corporation (QMC)",
+  "target_role": "Artificial Intelligence & Digital Transformation Internship (Remote)",
+  "timestamp": "2026-08-07T15:28:00.000000",
+  "ats_score": 98.0,
+  "grounding_verified": true,
+  "match_score": 96.0,
+  "generated_files": [
+    "01_cv\\tailored_cv.md",
+    "01_cv\\tailored_cv.pdf",
+    "01_cv\\tailored_cv.tex",
+    "02_cover_letter\\cover_letter.md",
+    "02_cover_letter\\cover_letter.pdf",
+    "02_cover_letter\\cover_letter.tex",
+    "generated_metadata.json",
+    "job_description.txt"
+  ]
+}

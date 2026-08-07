@@ -79,7 +79,7 @@ The candidate shows exceptional alignment with the **{jd.job_title}** role. Core
 ---
 
 ### Project Relevance Ranking
-1. **{sorted_projects[0].replace('_', ' ').title() if sorted_projects else 'Baki'}**: Direct alignment with RAG, vector search, and agentic LLMs.
+1. **{sorted_projects[0].replace('_', ' ').title() if sorted_projects else 'Adaptive Blended Assessment'}**: Direct alignment with RAG, vector search, and agentic LLMs.
 2. **{sorted_projects[1].replace('_', ' ').title() if len(sorted_projects)>1 else 'EdgeQuant'}**: High alignment with model quantization (INT8/4-bit) and inference latency optimization.
 
 ---

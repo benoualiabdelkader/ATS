@@ -105,20 +105,21 @@ class ApplicationPipeline:
         cv_md_content = generated_docs["tailored_cv.md"]
         ats_report: ATSReport = self.ats_evaluator.evaluate(cv_md_content, jd)
 
-        # 8. Export PDF Files for All Documents (LaTeX PDF for CV, ReportLab for MDs)
+        # 8. Export PDF Files for All Documents
         all_generated_relative_files = ["job_description.txt", "generated_metadata.json"]
 
-        # 8a. Compile native TeX PDF for CV
+        # 8a. Compile native TeX PDF if pdflatex exists; otherwise compile from MD
         tex_file = subdirs["cv"] / "tailored_cv.tex"
         cv_pdf_file = subdirs["cv"] / "tailored_cv.pdf"
-        self.pdf_exporter.export_tex_to_pdf(tex_file.read_text(encoding="utf-8"), cv_pdf_file)
+        tex_compiled = self.pdf_exporter.export_tex_to_pdf(tex_file.read_text(encoding="utf-8"), cv_pdf_file)
+        if not tex_compiled:
+            self.pdf_exporter.export_md_to_pdf(cv_md_content, cv_pdf_file)
 
-        # 8b. Compile PDFs for Markdown files
+        # 8b. Compile PDFs for all Markdown files
         for category_dir in subdirs.values():
             for md_file in category_dir.glob("*.md"):
                 pdf_file = md_file.with_suffix(".pdf")
-                if not pdf_file.exists():
-                    self.pdf_exporter.export_md_to_pdf(md_file.read_text(encoding="utf-8"), pdf_file)
+                self.pdf_exporter.export_md_to_pdf(md_file.read_text(encoding="utf-8"), pdf_file)
                 all_generated_relative_files.extend([
                     str(md_file.relative_to(opp_dir)),
                     str(pdf_file.relative_to(opp_dir)),

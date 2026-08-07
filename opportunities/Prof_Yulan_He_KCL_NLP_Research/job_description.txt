@@ -1,0 +1,38 @@
+**Opportunity Title:**
+Research Internship / Visiting Student Researcher – NLP & Large Language Models
+
+**Organization:**
+King's College London (KCL) – Department of Informatics
+
+**Target Faculty:**
+Prof. Yulan He (Professor of Natural Language Processing)
+Contact: yulan.he@kcl.ac.uk
+
+**Opportunity Type:**
+Visiting Student Researcher / Academic Research Internship
+
+**Field:**
+Natural Language Processing (NLP) / Large Language Models (LLMs) / Artificial Intelligence / Machine Learning
+
+**Description:**
+Academic research internship / visiting student researcher inquiry aimed at contributing to research activities in the Natural Language Processing (NLP) group led by Prof. Yulan He at King's College London (KCL).
+
+The research scope includes:
+* Natural Language Processing (NLP) fundamentals and modern architectures.
+* Large Language Models (LLMs), prompt engineering, and LLM reasoning.
+* Information extraction, text mining, and knowledge representation.
+* Experimental evaluation, model benchmark validation, and data processing methodologies.
+* Scientific literature review and academic research discussion.
+
+**Preferred Background:**
+* Master's student in Artificial Intelligence, Computer Science, Data Science, or related fields.
+* Strong foundations in Python, machine learning, and NLP libraries/frameworks.
+* Proven experience building and evaluating AI/NLP prototypes (LLMs, classification models).
+* Ability to review academic papers and document experiments in LaTeX.
+* Excellent academic record (Bachelor's in CS - Ranked Top 3 in cohort).
+
+**Availability:**
+Candidate available from September 2027 onwards (following Master's degree completion in July 2027).
+
+**Mode:**
+Remote or On-site (King's College London, Strand Campus)

@@ -1,0 +1,19 @@
+=== ATS KEYWORD & MATCHING PHRASES MATRIX ===
+
+HIGH-PRIORITY TECHNICAL KEYWORDS:
+- [MATCHED 100%] IT Support
+- [MATCHED 100%] Linux
+- [MATCHED 100%] Windows
+- [NEEDS CONTEXT] Claude Code
+- [NEEDS CONTEXT] Codex
+- [NEEDS CONTEXT] No-code / Low-code Platforms
+
+POWER ACTION VERBS TO INCLUDE:
+- Architected
+- Engineered
+- Automated
+- Developed
+- Built
+- Designed
+- Optimized
+- Collaborated

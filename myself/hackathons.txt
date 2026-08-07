@@ -1,3 +1,18 @@
-[No hackathon participation recorded yet. Space reserved for future competitions and hackathon results.]
+--- HACKATHON 1 ---
+TITLE: Participant -- Agentic Cinema: The Blockbuster Hackathon
+ORGANIZATION: Google Cloud & Devpost
+PERIOD: August -- September 2026 (In Progress)
+TYPE: AI / Media Technology Hackathon (Remote Global)
+DESCRIPTION:
+- Registered and actively building an AI agentic solution using Google Cloud, Gemini Enterprise Agent Platform, and Google Cloud Agent Builder targeted at media & entertainment workflows.
+- Orchestrating multi-step autonomous AI agents, LLM pipelines, and Model Context Protocol (MCP) integrations for intelligent media platform automation.
+DEVPOST PROFILE: abdelkaderbenouali301
+SKILLS: Google Cloud, Gemini AI, Agent Builder, Media & Entertainment AI, LLM Workflows, MCP Servers, Multi-Agent Systems
 
-NOTE: Active in competitive academic settings — participated in mathematics and physics competitions during secondary education at Ben Issa Attar High School (2019–2022).
+--- HACKATHON 2 ---
+TITLE: Participant -- UNESCO Youth Hackathon
+ORGANIZATION: UNESCO
+PERIOD: 2026
+TYPE: Hackathon / Innovation Competition
+DESCRIPTION: Participated in the UNESCO Youth Hackathon, developing innovative digital and technology-driven solutions for global youth challenges.
+SKILLS: Digital Innovation, Problem Solving, AI & Tech Solutions, Team Collaboration

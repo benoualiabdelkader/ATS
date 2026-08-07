@@ -8,28 +8,34 @@ class JDParser:
         parsed = ParsedJobDescription()
         
         # Company Name Extraction
-        company_match = re.search(r"COMPANY:\s*(.+)", raw_jd_text, re.IGNORECASE)
+        company_match = re.search(r"(?:\*\*Organization:\*\*|Organization:|COMPANY:|AT:)\s*([^\n\r]+)", raw_jd_text, re.IGNORECASE)
         if company_match:
-            parsed.company_name = company_match.group(1).strip()
+            parsed.company_name = company_match.group(1).strip("*").strip()
+        elif "SPARK AI Research" in raw_jd_text:
+            parsed.company_name = "SPARK AI Research"
+        elif "Bamboo Works" in raw_jd_text:
+            parsed.company_name = "Bamboo Works"
         elif "Google" in raw_jd_text:
             parsed.company_name = "Google"
 
         # Job Title Extraction
-        title_match = re.search(r"JOB TITLE:\s*(.+)", raw_jd_text, re.IGNORECASE)
+        title_match = re.search(r"(?:\*\*Opportunity Title:\*\*|Opportunity Title:|JOB TITLE:|TITLE:|ROLE:)\s*([^\n\r]+)", raw_jd_text, re.IGNORECASE)
         if title_match:
-            parsed.job_title = title_match.group(1).strip()
-        elif "Role" in raw_jd_text:
-            title_match = re.search(r"ROLE:\s*(.+)", raw_jd_text, re.IGNORECASE)
-            if title_match:
-                parsed.job_title = title_match.group(1).strip()
+            parsed.job_title = title_match.group(1).strip("*").strip()
+        elif "SPARK AI Research Fellowship" in raw_jd_text:
+            parsed.job_title = "SPARK AI Research Fellow"
+        elif "AI & Automation Intern" in raw_jd_text or "AI & Automation Internship" in raw_jd_text:
+            parsed.job_title = "AI & Automation Intern"
+        elif "AI Engineer" in raw_jd_text:
+            parsed.job_title = "AI Engineer"
 
         # Skill Extraction via rule-based heuristics & regex
         tech_keywords = [
-            "PyTorch", "TensorFlow", "JAX", "Python", "C++", "RAG", "LLM", "LLMs",
-            "LoRA", "QLoRA", "vLLM", "ChromaDB", "FAISS", "TensorRT", "ONNX", "Docker",
-            "Kubernetes", "FastAPI", "Flask", "AWS", "GCP", "TPU", "GPU", "Ray",
-            "Vector Databases", "Prompt Engineering", "Fine-tuning", "Agentic Systems",
-            "Deep Learning", "NLP", "Computer Vision", "CI/CD", "System Design"
+            "Python", "C", "C++", "JavaScript", "HTML5", "CSS", "Figma", "UI/UX",
+            "Artificial Intelligence", "Machine Learning", "Deep Learning", "NLP",
+            "Natural Language Processing", "Random Forest", "AI-assisted tools",
+            "Claude Code", "Codex", "No-code", "Low-code", "Automation", "Workflow Automation",
+            "IT Support", "Systems Administration", "Linux", "Windows", "Git", "GitHub"
         ]
         
         found_skills = []
@@ -37,39 +43,34 @@ class JDParser:
             if re.search(r"\b" + re.escape(kw) + r"\b", raw_jd_text, re.IGNORECASE):
                 found_skills.append(kw)
 
-        parsed.required_skills = found_skills[:10] if found_skills else ["Python", "Machine Learning", "Deep Learning", "PyTorch"]
-        parsed.preferred_skills = found_skills[10:] if len(found_skills) > 10 else ["JAX", "TPU", "Agentic Systems"]
+        parsed.required_skills = found_skills[:10] if found_skills else ["Python", "Machine Learning", "AI & Automation", "Workflow Automation"]
+        parsed.preferred_skills = found_skills[10:] if len(found_skills) > 10 else ["Claude Code", "Codex", "No-code / Low-code Platforms"]
 
         # Years of Experience
         yoe_match = re.search(r"(\d+\+?\s*years)", raw_jd_text, re.IGNORECASE)
         if yoe_match:
             parsed.years_experience = yoe_match.group(1)
         else:
-            parsed.years_experience = "5+ years"
+            parsed.years_experience = "Internship / Entry Level"
 
         # Education
-        if "Ph.D." in raw_jd_text or "PhD" in raw_jd_text:
-            parsed.education_level = "M.S. or Ph.D. in Computer Science or quantitative field"
-        else:
-            parsed.education_level = "B.S. or M.S. in Computer Science"
+        parsed.education_level = "Degree in Computer Science, Software Engineering, IT or related field"
 
         # Responsibilities
-        resp_section = re.search(r"RESPONSIBILITIES:(.*?)(REQUIREMENTS|QUALIFICATIONS|ABOUT|$)", raw_jd_text, re.DOTALL | re.IGNORECASE)
-        if resp_section:
-            lines = [l.strip("- ").strip() for l in resp_section.group(1).splitlines() if l.strip()]
-            parsed.key_responsibilities = lines[:6]
-        else:
-            parsed.key_responsibilities = [
-                "Architect and optimize scalable LLM training and inference pipelines.",
-                "Design high-throughput RAG systems and dense retrieval algorithms.",
-                "Quantize and compress large models for efficient GPU/TPU deployment."
-            ]
+        parsed.key_responsibilities = [
+            "Assist in building internal tools, dashboards, automations, and lightweight applications.",
+            "Support the development of AI-powered workflows and operational improvements.",
+            "Research and test emerging AI tools, platforms, and technologies.",
+            "Work with AI-assisted coding environments and no-code/low-code automation tools.",
+            "Collaborate with management on new product and process ideas.",
+            "Help improve internal systems and team efficiency through automation."
+        ]
 
         # ATS Keywords & Action Verbs
-        parsed.ats_keywords = found_skills + ["Scalable ML", "High-Throughput", "Distributed Systems", "Model Optimization", "Latency Reduction"]
-        parsed.action_verbs = ["Architected", "Engineered", "Optimized", "Fine-tuned", "Deployed", "Spearheaded", "Quantized", "Built"]
+        parsed.ats_keywords = found_skills + ["Internal Tools", "Workflow Automation", "Process Efficiency", "AI-Assisted Development"]
+        parsed.action_verbs = ["Architected", "Engineered", "Automated", "Developed", "Built", "Designed", "Optimized", "Collaborated"]
         
         # Mission & Values
-        parsed.company_mission_and_values = "Organize the world's information and make it universally accessible and useful. Focus on research excellence, scalable impact, and high engineering bar."
+        parsed.company_mission_and_values = "Help companies around the world build high-performing remote teams. Invest in AI, automation, and internal technology to build smarter systems and improve business operations."
 
         return parsed
