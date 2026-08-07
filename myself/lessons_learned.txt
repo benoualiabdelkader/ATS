@@ -741,7 +741,20 @@ Why it was wrong:
   - Semiconductor AI teams look explicitly for parallel computing and low-level optimization background alongside CUDA.
 
 Rule for the future:
-  → Explicitly include "Parallel Computing" and "Performance Benchmarking" in technical skills for hardware/semiconductor AI applications.
+  → Explicitly include "Parallel Computing" and "Performance Benchmarking" in technical skills for hardware/semiconductor AI applications ONLY IF backed by a project bullet.
+
+
+MISTAKE #53: Adding un-backed skill claims ("Parallel Computing", "Problem Solving", "Cross-Functional Collaboration")
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+What happened:
+  Added "Parallel Computing", "Problem Solving", and "Cross-Functional Collaboration" to Technical Skills without explicit proof in project bullets.
+
+Why it was wrong:
+  - Violated Checklist Rule #5 ("Every skill must have proof in a project bullet"). Generic soft skill phrases sound like padding to experienced technical screeners, and un-backed technical claims degrade candidate credibility.
+
+Rule for the future:
+  → NEVER list a skill without explicit proof in a project bullet on the page. Stick strictly to 100% provable technical skills: `Performance Benchmarking`, `REST API Design`, `Software Debugging`, `Sensor & Time-Series Data Modeling`.
+
 
 
 

@@ -12,10 +12,10 @@ Master's student in AI and Cybersecurity (Ranked 3rd in CS cohort) proficient in
 ---
 
 ## TECHNICAL SKILLS
-- **AI and Machine Learning:** PyTorch, Scikit-learn, Model Quantization, Fine-Tuning, LLM Pipelines, Sensor Data Modeling
+- **AI and Machine Learning:** PyTorch, Scikit-learn, Model Quantization, Fine-Tuning, LLM Pipelines, Sensor & Time-Series Data Modeling
 - **Languages and Core CS:** Python, C, C++, Data Structures, Algorithms, REST APIs, SQL, PostgreSQL
-- **Systems and Cloud:** Hardware Integration, Docker Containerization, Linux/Windows Administration, Streamlit, Git/GitHub
-- **Engineering and Benchmarking:** Performance Benchmarking, Parallel Computing, Problem Solving, Cross-Functional Collaboration
+- **Systems and Hardware Integration:** Hardware-Software Integration, Docker Containerization, Linux/Windows Administration, Streamlit, Git/GitHub
+- **Engineering and Benchmarking:** Performance Benchmarking, REST API Design, Software Debugging, Model Benchmarking
 
 ---
 

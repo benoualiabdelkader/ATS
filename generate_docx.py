@@ -82,10 +82,10 @@ p_sum.paragraph_format.line_spacing = 1.05
 
 # TECHNICAL SKILLS
 add_section_title(doc, "Technical Skills")
-add_bullet(doc, "AI and Machine Learning: ", "PyTorch, Scikit-learn, Model Quantization, Fine-Tuning, LLM Pipelines, Sensor Data Modeling")
+add_bullet(doc, "AI and Machine Learning: ", "PyTorch, Scikit-learn, Model Quantization, Fine-Tuning, LLM Pipelines, Sensor & Time-Series Data Modeling")
 add_bullet(doc, "Languages and Core CS: ", "Python, C, C++, Data Structures, Algorithms, REST APIs, SQL, PostgreSQL")
-add_bullet(doc, "Systems and Cloud: ", "Hardware Integration, Docker Containerization, Linux/Windows Administration, Streamlit, Git/GitHub")
-add_bullet(doc, "Engineering and Benchmarking: ", "Performance Benchmarking, Parallel Computing, Problem Solving, Cross-Functional Collaboration")
+add_bullet(doc, "Systems and Hardware Integration: ", "Hardware-Software Integration, Docker Containerization, Linux/Windows Administration, Streamlit, Git/GitHub")
+add_bullet(doc, "Engineering and Benchmarking: ", "Performance Benchmarking, REST API Design, Software Debugging, Model Benchmarking")
 
 # EDUCATION
 add_section_title(doc, "Education")
