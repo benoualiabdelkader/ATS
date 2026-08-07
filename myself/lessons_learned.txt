@@ -576,6 +576,19 @@ Rule for the future:
   → Maintain a master generic closing sentence ("Seeking an AI Software Engineering Intern role to optimize AI frameworks and build high-performance, scalable machine learning systems.") and swap in company-specific target titles/names ONLY for that specific application submission.
 
 
+MISTAKE #39: Using awkward or unnatural technical jargon ("fail-closed security")
+─────────────────────────────────────────────────────────────────────────────────
+What happened:
+  Used "fail-closed security" in WriteLens V2 bullet point.
+
+Why it was wrong:
+  - "Fail-closed" applies primarily to mechanical/circuit switches, whereas in software architecture and cybersecurity, "fail-secure" or "default-deny" are the standard, recognized terms.
+
+Rule for the future:
+  → Always use standard cybersecurity and software engineering terms ("fail-secure", "default-deny") rather than literal mechanical translations.
+
+
+
 
 
 

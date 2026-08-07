@@ -32,7 +32,7 @@ Master's student in AI & Cybersecurity (Ranked 3rd in CS cohort) proficient in P
 **Adaptive Blended Assessment (WriteLens V2)** | *2025 – 2026*  
 [github.com/benoualiabdelkader/Adaptive-Blended-Assessment-](https://github.com/benoualiabdelkader/Adaptive-Blended-Assessment-) | *Tech Stack: Python, Node.js, Express, React, TypeScript, Docker*
 - Engineered an AI-driven academic writing platform processing 480+ student submissions to generate diagnostic profiles, risk bands, and cohort summaries for 60 students.
-- Built a privacy-first Python AI engine integrating Groq LLM API with strict tokenization, fail-closed security, and provenance tracking across Render cloud deployments.
+- Built a privacy-first Python AI engine integrating Groq LLM API with strict tokenization, default-deny security controls, and provenance tracking across Render cloud deployments.
 - Developed a REST API backend (Node.js/Express) serving JSON run bundles to a React TypeScript dashboard, containerized via Docker with release automation.
 
 **EdgeQuant — High-Speed LLM Quantization Toolkit** | *2026*  

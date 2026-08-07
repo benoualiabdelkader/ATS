@@ -54,7 +54,6 @@ def add_section_title(doc, title):
     run.font.size = Pt(11)
     run.font.color.rgb = RGBColor(0x00, 0x33, 0x66)
     
-    # Add a thin bottom border / line equivalent
     p_border = doc.add_paragraph()
     p_border.paragraph_format.space_before = Pt(0)
     p_border.paragraph_format.space_after = Pt(3)
@@ -115,7 +114,7 @@ r_p1_stack.italic = True
 r_p1_stack.font.size = Pt(9)
 
 add_bullet(doc, "", "Engineered an AI-driven academic writing platform processing 480+ student submissions to generate diagnostic profiles, risk bands, and cohort summaries for 60 students.")
-add_bullet(doc, "", "Built a privacy-first Python AI engine integrating Groq LLM API with strict tokenization, fail-closed security, and provenance tracking across Render cloud deployments.")
+add_bullet(doc, "", "Built a privacy-first Python AI engine integrating Groq LLM API with strict tokenization, default-deny security controls, and provenance tracking across Render cloud deployments.")
 add_bullet(doc, "", "Developed a REST API backend (Node.js/Express) serving JSON run bundles to a React TypeScript dashboard, containerized via Docker with release automation.")
 
 # EdgeQuant
