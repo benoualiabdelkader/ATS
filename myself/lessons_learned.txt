@@ -660,6 +660,19 @@ Rule for the future:
   → Include a dedicated "Engineering Practices & Soft Skills" entry in Technical Skills featuring "Problem Solving" and "Cross-Functional Collaboration".
 
 
+MISTAKE #46: Overcrowded technical skill bullet lines causing visual clutter and overfull line wraps
+───────────────────────────────────────────────────────────────────────────────────────────────────
+What happened:
+  Technical skills lists included overly long compound phrases ("Model Optimization and Fine-Tuning", "Hardware-Software Integration") that overflowed lines and created visual clutter for human readers.
+
+Why it was wrong:
+  - Cluttered lines decrease human scannability during 5-second recruiter screens and cause LaTeX line-hyphenation artifacts.
+
+Rule for the future:
+  → Keep technical skill list items concise, balanced, and un-cluttered (4–6 core high-signal items per category) to ensure crisp visual presentation and zero line-hyphenation errors.
+
+
+
 
 
 
