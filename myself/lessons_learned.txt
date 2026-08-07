@@ -672,6 +672,43 @@ Rule for the future:
   → Keep technical skill list items concise, balanced, and un-cluttered (4–6 core high-signal items per category) to ensure crisp visual presentation and zero line-hyphenation errors.
 
 
+MISTAKE #47: Spaces before commas in contact headers and text separators
+─────────────────────────────────────────────────────────────────────────
+What happened:
+  Formatted separator strings as `Word , Word` or `Word \quad, \quad Word`.
+
+Why it was wrong:
+  - Typography defect that creates unnatural spacing artifacts in ATS plain-text extractions and human viewing.
+
+Rule for the future:
+  → Always write commas directly attached to the preceding word without spaces (`Word, Word`).
+
+
+MISTAKE #48: Missing target-specific hardware acceleration keywords (Performance Benchmarking) for semiconductor roles
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+What happened:
+  Omitted "Performance Benchmarking" in technical skills when targeting Intel's framework optimization team.
+
+Why it was wrong:
+  - Misses high-value recruiter screening keywords specific to semiconductor and framework engineering roles.
+
+Rule for the future:
+  → When targeting hardware/semiconductor AI roles (Intel, NVIDIA, AMD), explicitly include benchmarking and framework performance keywords.
+
+
+MISTAKE #49: Ambiguous date status for completed vs ongoing projects
+────────────────────────────────────────────────────────────────────
+What happened:
+  Needed clear distinction between completed projects (`2026`) and active ongoing systems (`2025 – Present (Ongoing)`).
+
+Why it was wrong:
+  - Unclear project dates confuse recruiters regarding current project availability.
+
+Rule for the future:
+  → Use explicit single-year dates (`2026`) for completed projects and `Present (Ongoing)` for active work.
+
+
+
 
 
 

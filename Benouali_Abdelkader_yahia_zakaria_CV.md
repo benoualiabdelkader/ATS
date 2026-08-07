@@ -1,7 +1,7 @@
 # BENOUALI ABDELKADER YAHIA ZAKARIA
-**Master's Student in AI and Cybersecurity , AI Software Engineering Intern Candidate**
-Ain Temouchent, Algeria , +213 781 306 713 , abdelkaderbenouali301@gmail.com
-[LinkedIn](https://www.linkedin.com/in/benouali-abdelkader-yahia-zakaria-4a917a247) , [GitHub](https://github.com/benoualiabdelkader)  
+**Master's Student in AI and Cybersecurity • AI Software Engineering Intern Candidate**
+Ain Temouchent, Algeria • +213 781 306 713 • abdelkaderbenouali301@gmail.com
+[LinkedIn](https://www.linkedin.com/in/benouali-abdelkader-yahia-zakaria-4a917a247) • [GitHub](https://github.com/benoualiabdelkader)  
 *Open to Relocation and Remote Roles*
 
 ---
@@ -15,7 +15,7 @@ Master's student in AI and Cybersecurity (Ranked 3rd in CS cohort) proficient in
 - **AI and Machine Learning:** PyTorch, Scikit-learn, Model Quantization, Fine-Tuning, LLM Pipelines, Sensor Data Modeling
 - **Languages and Core CS:** Python, C, C++, Data Structures, Algorithms, REST APIs, SQL, PostgreSQL
 - **Systems and Cloud:** Hardware Integration, Docker Containerization, Linux/Windows Administration, Streamlit, Git/GitHub
-- **Engineering and Soft Skills:** Problem Solving, Cross-Functional Collaboration, Technical Leadership, Model Benchmarking
+- **Engineering and Benchmarking:** Performance Benchmarking, Problem Solving, Cross-Functional Collaboration, Technical Leadership
 
 ---
 

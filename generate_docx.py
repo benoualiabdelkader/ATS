@@ -31,14 +31,14 @@ def add_header(doc):
     run.font.size = Pt(15)
     run.font.color.rgb = RGBColor(0x00, 0x33, 0x66)
     
-    run_sub = p.add_run("Master's Student in AI and Cybersecurity  ,  AI Software Engineering Intern Candidate\n")
+    run_sub = p.add_run("Master's Student in AI and Cybersecurity  •  AI Software Engineering Intern Candidate\n")
     run_sub.font.size = Pt(10.5)
     run_sub.bold = True
     
-    run_contact = p.add_run("Ain Temouchent, Algeria  ,  +213 781 306 713  ,  abdelkaderbenouali301@gmail.com\n")
+    run_contact = p.add_run("Ain Temouchent, Algeria  •  +213 781 306 713  •  abdelkaderbenouali301@gmail.com\n")
     run_contact.font.size = Pt(9.5)
     
-    run_links = p.add_run("LinkedIn: linkedin.com/in/benouali-abdelkader-yahia-zakaria-4a917a247  ,  GitHub: github.com/benoualiabdelkader\n")
+    run_links = p.add_run("LinkedIn: linkedin.com/in/benouali-abdelkader-yahia-zakaria-4a917a247  •  GitHub: github.com/benoualiabdelkader\n")
     run_links.font.size = Pt(9.5)
     
     run_note = p.add_run("Open to Relocation and Remote Roles")
@@ -85,7 +85,7 @@ add_section_title(doc, "Technical Skills")
 add_bullet(doc, "AI and Machine Learning: ", "PyTorch, Scikit-learn, Model Quantization, Fine-Tuning, LLM Pipelines, Sensor Data Modeling")
 add_bullet(doc, "Languages and Core CS: ", "Python, C, C++, Data Structures, Algorithms, REST APIs, SQL, PostgreSQL")
 add_bullet(doc, "Systems and Cloud: ", "Hardware Integration, Docker Containerization, Linux/Windows Administration, Streamlit, Git/GitHub")
-add_bullet(doc, "Engineering and Soft Skills: ", "Problem Solving, Cross-Functional Collaboration, Technical Leadership, Model Benchmarking")
+add_bullet(doc, "Engineering and Benchmarking: ", "Performance Benchmarking, Problem Solving, Cross-Functional Collaboration, Technical Leadership")
 
 # EDUCATION
 add_section_title(doc, "Education")
@@ -105,9 +105,9 @@ add_section_title(doc, "AI and Software Engineering Projects")
 p_p1 = doc.add_paragraph()
 p_p1.paragraph_format.space_before = Pt(3)
 p_p1.paragraph_format.space_after = Pt(1)
-r_p1_title = p_p1.add_run("Adaptive Blended Assessment (WriteLens V2)  ,  2025 – Present (Ongoing)\n")
+r_p1_title = p_p1.add_run("Adaptive Blended Assessment (WriteLens V2)  •  2025 – Present (Ongoing)\n")
 r_p1_title.bold = True
-r_p1_url = p_p1.add_run("github.com/benoualiabdelkader/Adaptive-Blended-Assessment-  ,  ")
+r_p1_url = p_p1.add_run("github.com/benoualiabdelkader/Adaptive-Blended-Assessment-  •  ")
 r_p1_url.font.size = Pt(9)
 r_p1_stack = p_p1.add_run("Tech Stack: Python, Node.js, Express, React, TypeScript, Docker")
 r_p1_stack.italic = True
@@ -121,9 +121,9 @@ add_bullet(doc, "", "Developed a REST API backend (Node.js/Express) serving JSON
 p_p2 = doc.add_paragraph()
 p_p2.paragraph_format.space_before = Pt(4)
 p_p2.paragraph_format.space_after = Pt(1)
-r_p2_title = p_p2.add_run("EdgeQuant - High-Speed LLM Quantization Toolkit  ,  2026\n")
+r_p2_title = p_p2.add_run("EdgeQuant - High-Speed LLM Quantization Toolkit  •  2026\n")
 r_p2_title.bold = True
-r_p2_url = p_p2.add_run("github.com/benoualiabdelkader/EdgeQuant  ,  ")
+r_p2_url = p_p2.add_run("github.com/benoualiabdelkader/EdgeQuant  •  ")
 r_p2_url.font.size = Pt(9)
 r_p2_stack = p_p2.add_run("Tech Stack: Python, C++, PyTorch, CUDA, ONNX")
 r_p2_stack.italic = True
@@ -136,9 +136,9 @@ add_bullet(doc, "", "Optimized inference performance by reducing GPU VRAM footpr
 p_p3 = doc.add_paragraph()
 p_p3.paragraph_format.space_before = Pt(4)
 p_p3.paragraph_format.space_after = Pt(1)
-r_p3_title = p_p3.add_run("EcoSentinel AI - Aquatic Sensor Quality and ML Pipeline  ,  2026\n")
+r_p3_title = p_p3.add_run("EcoSentinel AI - Aquatic Sensor Quality and ML Pipeline  •  2026\n")
 r_p3_title.bold = True
-r_p3_url = p_p3.add_run("github.com/benoualiabdelkader/eco-sentinel-project  ,  ")
+r_p3_url = p_p3.add_run("github.com/benoualiabdelkader/eco-sentinel-project  •  ")
 r_p3_url.font.size = Pt(9)
 r_p3_stack = p_p3.add_run("Tech Stack: Python, Scikit-learn, Pandas, NumPy, Streamlit, LaTeX")
 r_p3_stack.italic = True
@@ -160,7 +160,7 @@ add_bullet(doc, "Algerian-American Summer University 2025: ", "Advanced Computin
 
 # LANGUAGES
 add_section_title(doc, "Languages")
-p_lang = doc.add_paragraph("Arabic: Native  ,  English: B2 Level (Intermediate / Working Proficiency)  ,  French: B1 Level (Working Proficiency)")
+p_lang = doc.add_paragraph("Arabic: Native  •  English: B2 Level (Intermediate / Working Proficiency)  •  French: B1 Level (Working Proficiency)")
 p_lang.paragraph_format.space_before = Pt(2)
 
 doc.save("Benouali_Abdelkader_yahia_zakaria_CV.docx")
