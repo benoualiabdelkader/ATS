@@ -756,6 +756,43 @@ Rule for the future:
   → NEVER list a skill without explicit proof in a project bullet on the page. Stick strictly to 100% provable technical skills: `Performance Benchmarking`, `REST API Design`, `Software Debugging`, `Sensor & Time-Series Data Modeling`.
 
 
+MISTAKE #54: Spurious spaces in hyphenated words ("end- to- end") and URL text strings ("Adaptive- Blended-")
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+What happened:
+  Spurious spaces appeared inside hyphenated words (`end- to- end`) and displayed repo URLs (`Adaptive- Blended-`).
+
+Why it was wrong:
+  - Breaks text continuity, ruins typographical polish, and corrupts link copy-pasting for recruiters.
+
+Rule for the future:
+  → Always write hyphenated words (`end-to-end`) and repo link texts (`Adaptive-Blended-Assessment-`) without internal spaces. Wrap URLs in `\mbox{...}` in LaTeX to prevent hyphenated line splits.
+
+
+MISTAKE #55: Using raw LaTeX math blocks (`\(\mathrm{C / C + + }\)`) for plain technical acronyms
+───────────────────────────────────────────────────────────────────────────────────────────────
+What happened:
+  Formatted C/C++ using LaTeX math mode `\(\mathrm{C / C + + }\)`.
+
+Why it was wrong:
+  - Causes raw LaTeX code strings to leak into ATS text parsers, corrupting skill keyword extractions.
+
+Rule for the future:
+  → Always write programming language names as plain text strings (`C/C++`).
+
+
+MISTAKE #56: Persistent typo "Architecte" instead of "Architected"
+─────────────────────────────────────────────────────────────────
+What happened:
+  French spelling "Architecte" appeared in WriteLens V2 bullet.
+
+Why it was wrong:
+  - Grammatical mismatch in an English CV.
+
+Rule for the future:
+  → Double-check every action verb in English (`Architected`).
+
+
+
 
 
 
