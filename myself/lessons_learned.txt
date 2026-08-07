@@ -792,6 +792,19 @@ Rule for the future:
   → Double-check every action verb in English (`Architected`).
 
 
+MISTAKE #57: Transposed / Malformed GitHub username in URLs (`benoalialabeldaker`)
+───────────────────────────────────────────────────────────────────────────────────
+What happened:
+  GitHub username string transposed into `benoalialabeldaker`.
+
+Why it was wrong:
+  - Leads to HTTP 404 dead links on recruiter clicks, destroying candidate project credibility.
+
+Rule for the future:
+  → Always hard-code and cross-check the exact verified GitHub username `benoualiabdelkader` across all 3 project repos and header links.
+
+
+
 
 
 
