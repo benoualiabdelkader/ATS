@@ -105,7 +105,7 @@ add_section_title(doc, "AI & Software Engineering Projects")
 p_p1 = doc.add_paragraph()
 p_p1.paragraph_format.space_before = Pt(3)
 p_p1.paragraph_format.space_after = Pt(1)
-r_p1_title = p_p1.add_run("Adaptive Blended Assessment (WriteLens V2)  |  2025 – 2026\n")
+r_p1_title = p_p1.add_run("Adaptive Blended Assessment (WriteLens V2)  |  2025 – Present\n")
 r_p1_title.bold = True
 r_p1_url = p_p1.add_run("github.com/benoualiabdelkader/Adaptive-Blended-Assessment-  |  ")
 r_p1_url.font.size = Pt(9)
@@ -113,7 +113,7 @@ r_p1_stack = p_p1.add_run("Tech Stack: Python, Node.js, Express, React, TypeScri
 r_p1_stack.italic = True
 r_p1_stack.font.size = Pt(9)
 
-add_bullet(doc, "", "Engineered an AI-driven academic writing platform processing 480+ student submissions to generate diagnostic profiles, risk bands, and cohort summaries for 60 students.")
+add_bullet(doc, "", "Architected and built an AI-driven academic writing platform processing 480+ student submissions to generate diagnostic profiles, risk bands, and cohort summaries for 60 students.")
 add_bullet(doc, "", "Built a privacy-first Python AI engine integrating Groq LLM API with strict tokenization, default-deny security controls, and provenance tracking across Render cloud deployments.")
 add_bullet(doc, "", "Developed a REST API backend (Node.js/Express) serving JSON run bundles to a React TypeScript dashboard, containerized via Docker with release automation.")
 
@@ -129,7 +129,7 @@ r_p2_stack = p_p2.add_run("Tech Stack: Python, C++, PyTorch, CUDA, ONNX")
 r_p2_stack.italic = True
 r_p2_stack.font.size = Pt(9)
 
-add_bullet(doc, "", "Developed an open-source quantization toolkit compressing 7B and 13B parameter Transformer models into 4-bit and 8-bit precision for edge devices and GPUs.")
+add_bullet(doc, "", "Designed and implemented an open-source quantization toolkit compressing 7B and 13B parameter Transformer models into 4-bit and 8-bit precision for edge devices and GPUs.")
 add_bullet(doc, "", "Optimized inference performance by reducing GPU VRAM footprint by 62% while preserving 98.4% of baseline FP16 model accuracy.")
 
 # EcoSentinel
@@ -144,7 +144,7 @@ r_p3_stack = p_p3.add_run("Tech Stack: Python, Scikit-learn, Pandas, NumPy, Stre
 r_p3_stack.italic = True
 r_p3_stack.font.size = Pt(9)
 
-add_bullet(doc, "", "Built an environmental monitoring system processing aquatic sensor data (turbidity, dissolved oxygen) to detect water pollution in real time.")
+add_bullet(doc, "", "Designed and built an environmental monitoring system processing aquatic sensor data (turbidity, dissolved oxygen) to detect water pollution in real time.")
 add_bullet(doc, "", "Trained a Scikit-learn SVM classifier (RBF kernel) and deployed an interactive Streamlit simulation web app featuring real-time parameter sliders and published a formal LaTeX research report.")
 
 # LEADERSHIP

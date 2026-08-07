@@ -588,6 +588,43 @@ Rule for the future:
   → Always use standard cybersecurity and software engineering terms ("fail-secure", "default-deny") rather than literal mechanical translations.
 
 
+MISTAKE #40: Ambiguous project date formatting for ongoing/multi-year projects
+───────────────────────────────────────────────────────────────────────────────
+What happened:
+  Dated WriteLens V2 as `2025 -- 2026` without clarifying whether it was an active ongoing system or completed historical project.
+
+Why it was wrong:
+  - Can confuse recruiters about whether the project is currently active or finalized.
+
+Rule for the future:
+  → Use `2025 – Present` for active/ongoing projects, or `2025 – 2026` for completed projects.
+
+
+MISTAKE #41: Omitting explicit engineering role ownership in project headers
+─────────────────────────────────────────────────────────────────────────────
+What happened:
+  Listed project titles without specifying the candidate's exact engineering role (Lead Developer / AI Architect).
+
+Why it was wrong:
+  - Leaves recruiters guessing whether the candidate was a minor contributor or the primary architect.
+
+Rule for the future:
+  → Explicitly lead project bullets or subheaders with ownership verbs ("Architected and built", "Lead Developer") to establish technical leadership.
+
+
+MISTAKE #42: Un-demonstrated soft skills claims
+───────────────────────────────────────────────
+What happened:
+  Soft skills like problem solving and technical leadership were not explicitly tied to project delivery outcomes.
+
+Why it was wrong:
+  - Soft skills need contextual evidence to be credible.
+
+Rule for the future:
+  → Demonstrate soft skills (problem solving, leadership, cross-functional collaboration) organically through project outcomes and leadership bullet points.
+
+
+
 
 
 
