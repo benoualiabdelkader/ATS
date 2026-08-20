@@ -1,4 +1,4 @@
-# Python
+# Python & Build Artifacts
 __pycache__/
 *.py[cod]
 *$py.class
@@ -26,9 +26,40 @@ venv/
 ENV/
 env/
 
+# Sensitive Personal Candidate Data & Documents
+myself/
+opportunities/
+bluebook op/
+scratch_inspect/
+files/
+add_bac_page5.py
+build_complete_academic_pdf.py
+build_full_color_dossier.py
+create_academic_pdf.py
+
+# Secret Credentials & Keys
+client_secret*.json
+*.token
+get_gmail_token.py
+
+# Document Builds & Binary Assets
+*.pdf
+*.docx
+*.aux
+*.log
+*.out
+*.jpg
+*.png
+*.jpeg
+
+# Generated CV/Cover Letter Text Drafts in Root
+Benouali_Abdelkader_yahia_zakaria_CV.*
+Benouali_Abdelkader_yahia_zakaria_Cover_Letter.*
+cv_*.tex
+cv_*.md
+
 # IDE & OS
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-*.log
